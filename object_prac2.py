@@ -40,6 +40,7 @@ class dog:
         self.eat(food)
         print(self.name + " is now sleeping...")
 
+
 Pochi = dog("Pochi", 5, "black")
 Choco = dog("Choco", 3, "brown")
 Siro = dog("Siro", 4, "white")
@@ -48,6 +49,7 @@ Siro = dog("Siro", 4, "white")
 class food:
     def __init__(self, fweight):
         self.weight = fweight
+
 
 beef = food(0.6)
 pork = food(0.8)
@@ -61,6 +63,6 @@ Choco.eat("beef")
 Choco.eatAndSleep("chicken")
 print("Choco.weight", Choco.weight)
 
-Siro.eat("chicken")
-Siro.eatAndSleep("pork")
-print("Siroi.weight", Siro.weight)
+Siro.eat("pork")
+Siro.eatAndSleep("chicken")
+print("Siro.weight", Siro.weight)
