@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91801a60-8377-4811-932c-2ae55ee60579" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/object_prac2.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_prac2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_prac.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module_prac.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -53,12 +53,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module_prac.py" />
         <option value="$PROJECT_DIR$/object_prac2.py" />
+        <option value="$PROJECT_DIR$/module_prac.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="320" />
     <option name="y" value="14" />
     <option name="width" value="974" />
@@ -163,7 +163,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="14" width="974" height="1188" extended-state="0" />
+    <frame x="320" y="14" width="974" height="1188" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -204,8 +204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module_prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>

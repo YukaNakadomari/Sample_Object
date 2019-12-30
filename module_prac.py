@@ -18,7 +18,7 @@ object_prac2.Pochi.eat("chicken")
 object_prac2.Pochi.eatAndSleep("pork")
 print("Pochi.weight", object_prac2.Pochi.weight)
 
-object_prac2.Choco.eat("beef")
+object_prac2.Choco.eat("pork")
 object_prac2.Choco.eatAndSleep("pork")
 print("Choco.weight", object_prac2.Choco.weight)
 
