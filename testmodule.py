@@ -7,6 +7,7 @@ if __name__ == '__main__':  # testModule.pyを実行すると以下が実行さ�
     a = Test()
     a.sayStr("Hello")
 
+
 def fibo(n):
     result = []
     a = 1

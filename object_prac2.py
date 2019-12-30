@@ -44,6 +44,7 @@ Pochi = dog("Pochi", 5, "black")
 Choco = dog("Choco", 3, "brown")
 Siro = dog("Siro", 4, "white")
 
+
 class food:
     def __init__(self, fweight):
         self.weight = fweight
