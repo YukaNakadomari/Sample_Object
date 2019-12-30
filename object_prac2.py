@@ -49,8 +49,8 @@ class food:
     def __init__(self, fweight):
         self.weight = fweight
 
-beef = food(0.5)
-pork = food(0.7)
+beef = food(0.6)
+pork = food(0.8)
 chicken = food(0.3)
 
 Pochi.eat("beef")
