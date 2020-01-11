@@ -57,12 +57,12 @@ chicken = food(0.3)
 
 Pochi.eat("beef")
 Pochi.eatAndSleep("pork")
-print("Pochi.weight", Pochi.weight)
+print("Pochi.weight", Pochi.weight, "Pochi.color", Pochi.color)
 
 Choco.eat("beef")
 Choco.eatAndSleep("chicken")
-print("Choco.weight", Choco.weight)
+print("Choco.weight", Choco.weight, "Choco.color", Choco.color)
 
 Siro.eat("pork")
 Siro.eatAndSleep("chicken")
-print("Siro.weight", Siro.weight)
+print("Siro.weight", Siro.weight, "Siro.color", Siro.color)
