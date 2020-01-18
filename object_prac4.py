@@ -1,28 +1,76 @@
-class Calc:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+class animal(object):
+    def __init__(self, name, food, action):
+       self.name = name
+       self.food = food
+       self.action = action
 
-    def add(self):
-        return self.x + self.y
+class sousyoku(animal):
+    def __init__(self, name, food, action, color, point):
+        super(sousyoku, self).__init__(name, food, action)
+        self.action = action
+        self.color = color
+        self.point = point
 
-    def exz(self):
-        return self.x * self.y
+class nikusyoku(animal):
+    def __init__(self, name, food, action, hunt, power):
+        super(nikusyoku,self).__init__(name, food, action)
+        self.hunt = hunt
+        self.power = power
+
+    def hunting(self):
+        if self.action == '狩り':
+            print(self.name,'狩りをする' )
+            emono.action = '逃げる'
+            print(emono.name, emono.action)
+            print(self.name, self.action, self.hunt)
+            if self.hunt == '成功':
+                self.action = '食べる'
+                print(self.name, self.food, self.action)
+                emono.action = '食べられた'
+                print(emono.name, emono.action)
+                print()
+            else:
+                self.hunt = '失敗'
+                self.action = '寝る'
+                emono.action = '逃げきれた'
+                print(emono.name, emono.action)
+                print(self.name, self.action)
+                print()
+        else:
+            self.action = '寝る'
+            print(self.name, self.action)
+            print( )
 
 
-class NewCalc(Calc):  # Calc クラスを継承してサブクラスを定義
-    def add(self):  # add メソッドをオーバーライド
-        print(self.x + self.y)
-
-    def sub(self):
-        print(self.x - self.y)
-
-    def exz(self):
-        print(self.x / self.y)
 
 
-if __name__ == "__main__":
-    nc = NewCalc(1, 2)  # NewCalc クラスのインスタンスを生成
-    nc.add()  # 3
-    nc.sub()  # -1
-    nc.exz()
+sample1 = sousyoku('シマウマ', '草', '食べる', '白黒', '持久力ある')
+sample2 = sousyoku('鹿', '木の皮', '食べる', '茶色', '身軽')
+sample3 = nikusyoku('虎', '肉', '寝る', '', 'ネコ科の中でパンチ力一位')
+sample4 = nikusyoku('狼', '肉', '寝る', '', '嗅覚が優れている')
+emono = sample1
+"""print(sample1.name, sample1.food, sample1.action)
+print(sample2.name, sample2.food, sample2.action)
+print(sample3.name,  sample3.action)
+print(sample4.name,  sample4.action)
+
+
+sample3.action = '狩り'
+sample3.hunt = '成功'
+sample3.hunting()
+sample4.action = '狩り'
+sample4.hunt = '失敗'
+sample4.hunting()
+
+emono = sample2
+sample3.action = '狩り'
+sample3.hunt = '失敗'
+sample3.hunting()
+
+sample4.action = '狩り'
+sample4.hunt = '成功'
+sample4.hunting()
+
+sample3.action = 'hh'
+sample3.hunt = '成功'
+sample3.hunting()"""
