@@ -5,17 +5,15 @@ class animal(object):
        self.action = action
 
 class sousyoku(animal):
-    def __init__(self, name, food, action, color, point):
+    def __init__(self, name, food, action):
         super(sousyoku, self).__init__(name, food, action)
         self.action = action
-        self.color = color
-        self.point = point
 
 class nikusyoku(animal):
-    def __init__(self, name, food, action, hunt, power):
+    def __init__(self, name, food, action, hunt):
         super(nikusyoku,self).__init__(name, food, action)
         self.hunt = hunt
-        self.power = power
+
 
     def hunting(self):
         if self.action == '狩り':
@@ -44,10 +42,10 @@ class nikusyoku(animal):
 
 
 
-sample1 = sousyoku('シマウマ', '草', '食べる', '白黒', '持久力ある')
-sample2 = sousyoku('鹿', '木の皮', '食べる', '茶色', '身軽')
-sample3 = nikusyoku('虎', '肉', '寝る', '', 'ネコ科の中でパンチ力一位')
-sample4 = nikusyoku('狼', '肉', '寝る', '', '嗅覚が優れている')
+sample1 = sousyoku('シマウマ', '草', '食べる')
+sample2 = sousyoku('鹿', '木の皮', '食べる')
+sample3 = nikusyoku('虎', '肉', '寝る', '')
+sample4 = nikusyoku('狼', '肉', '寝る', '')
 emono = sample1
 """print(sample1.name, sample1.food, sample1.action)
 print(sample2.name, sample2.food, sample2.action)
