@@ -27,10 +27,11 @@ class Shape:
 '''子クラス'''
 class Square(Shape):
     def area(self):
-        return self.width * self.len
+        return f"面積 {self.width * self.len}㎠"
 
 '''確認してみましょう。'''
 square = Square(10, 16)
+square.print_size()
 print(square.area())
 
 
@@ -43,6 +44,10 @@ class Shape:
     def print_size(self):
         print(f"横は{self.width}cm, 縦は{self.len}cmです。")
 
+square = Shape(13, 13)
+square.print_size()
+
+print(square.width * square.len, "㎠")
 '''子クラス'''
 class Square(Shape):
     def print_size(self):

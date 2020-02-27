@@ -10,7 +10,7 @@ if __name__ == '__main__':  # testModule.pyを実行すると以下が実行さ�
 
 def fibo(n):
     result = []
-    a = 1
+    a = 2
     b = 1
 
     while b < n:
@@ -25,8 +25,8 @@ if __name__ == "__main__":
 
 
 def add(a, b):
-    return a * b
+    return a + b
 
 def sub(a, b):
-    return a / b
+    return a - b
 

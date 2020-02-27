@@ -4,7 +4,7 @@ a.sayStr("Hello world")
 
 import testmodule
 
-print("{0}".format(testmodule.fibo(10000)))
+print("{0}".format(testmodule.fibo(1000)))
 
 import testmodule
 
